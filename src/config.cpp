@@ -551,7 +551,7 @@ class CfgVehicles
 	};
 	class AliceBag_ColorBase: Clothing
 	{
-		itemsCargoSize[]={7,7};
+		itemsCargoSize[]={6,6};
 		displayName = "$STR_cfgVehicles_AliceBag_ColorBase0";
 		descriptionShort="$STR_cfgVehicles_AliceBag_ColorBase1";
 	};
@@ -638,28 +638,28 @@ class CfgVehicles
 	class Attack2Bag_Black: Clothing //Start of Attack2Bag family (no ColorBase in base game).
 	{
 		scope=2;
-		itemsCargoSize[]={5,5};
+		itemsCargoSize[]={6,7};
 		displayName = "$STR_CfgVehicles_Attack2Bag_Black0";
 		descriptionShort="$STR_CfgVehicles_Attack2Bag_Black1";
 	};
 	class Attack2Bag_Green: Clothing
 	{
 		scope=2;
-		itemsCargoSize[]={5,5};
+		itemsCargoSize[]={6,7};
 		displayName = "$STR_CfgVehicles_Attack2Bag_Green0";
 		descriptionShort="$STR_CfgVehicles_Attack2Bag_Green1";
 	};
 	class Attack2Bag_Ttsko: Clothing
 	{
 		scope=2;
-		itemsCargoSize[]={5,5};
+		itemsCargoSize[]={6,7};
 		displayName = "$STR_CfgVehicles_Attack2Bag_Ttsko0";
 		descriptionShort="$STR_CfgVehicles_Attack2Bag_Ttsko1";
 	};
 	class Attack2Bag_Yeger: Clothing
 	{
 		scope=2;
-		itemsCargoSize[]={5,5};
+		itemsCargoSize[]={6,7};
 		displayName = "$STR_CfgVehicles_Attack2Bag_Yeger0";
 		descriptionShort="$STR_CfgVehicles_Attack2Bag_Yeger1";
 	};
@@ -777,9 +777,9 @@ class CfgVehicles
 	};
 	class OMKPants_Navy: Clothing
 	{
-		itemsCargoSize[]={3,3};
-		displayName="$STR_CfgVehicles_OMKJacket_ColorBase0";
-		descriptionShort="$STR_cfgvehicles_OMKJacket_Colorbase1";
+		itemsCargoSize[]={4,3};
+		displayName="$STR_CfgVehicles_OMKPants_ColorBase0";
+		descriptionShort="$STR_cfgvehicles_OMKPants_Colorbase1";
 	};
 	class NavyUniformPants: Clothing
 	{
