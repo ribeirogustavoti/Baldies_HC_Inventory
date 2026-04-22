@@ -37,6 +37,9 @@ class CfgMods
 class CfgVehicles
 {
 	class Clothing;
+	class Attack2Bag_ColorBase;
+	class GulagJacket_ColorBase;
+	class OMKPants_ColorBase;
 	class Jeans_ColorBase: Clothing //Start of Pants.
 	{
 		itemsCargoSize[]={3,2};
@@ -635,28 +638,28 @@ class CfgVehicles
 		displayName = "$STR_CfgVehicles_HikingBoots_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_HikingBoots_ColorBase1";
 	};
-	class Attack2Bag_Black: Clothing //Start of Attack2Bag family (no ColorBase in base game).
+	class Attack2Bag_Black: Attack2Bag_ColorBase //Start of Attack2Bag family (no ColorBase in base game).
 	{
 		scope=2;
 		itemsCargoSize[]={6,7};
 		displayName = "$STR_CfgVehicles_Attack2Bag_Black0";
 		descriptionShort="$STR_CfgVehicles_Attack2Bag_Black1";
 	};
-	class Attack2Bag_Green: Clothing
+	class Attack2Bag_Green: Attack2Bag_ColorBase
 	{
 		scope=2;
 		itemsCargoSize[]={6,7};
 		displayName = "$STR_CfgVehicles_Attack2Bag_Green0";
 		descriptionShort="$STR_CfgVehicles_Attack2Bag_Green1";
 	};
-	class Attack2Bag_Ttsko: Clothing
+	class Attack2Bag_Ttsko: Attack2Bag_ColorBase
 	{
 		scope=2;
 		itemsCargoSize[]={6,7};
 		displayName = "$STR_CfgVehicles_Attack2Bag_Ttsko0";
 		descriptionShort="$STR_CfgVehicles_Attack2Bag_Ttsko1";
 	};
-	class Attack2Bag_Yeger: Clothing
+	class Attack2Bag_Yeger: Attack2Bag_ColorBase
 	{
 		scope=2;
 		itemsCargoSize[]={6,7};
@@ -675,14 +678,14 @@ class CfgVehicles
 		displayName = "$STR_CfgVehicles_WaterproofBag_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_WaterproofBag_ColorBase1";
 	};
-	class HuntingBag_Hannah: Clothing
+	class HuntingBag_Hannah: HuntingBag
 	{
 		scope=2;
 		itemsCargoSize[]={5,5};
 		displayName = "$STR_cfgVehicles_HuntingBag_Hannah0";
 		descriptionShort="$STR_cfgVehicles_HuntingBag_Hannah1";
 	};
-	class TortillaBag_Winter: Clothing
+	class TortillaBag_Winter: TortillaBag
 	{
 		scope=2;
 		itemsCargoSize[]={4,4};
@@ -742,14 +745,14 @@ class CfgVehicles
 		displayName = "$STR_CfgVehicles_WinterMilitaryCoat_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_WinterMilitaryCoat_ColorBase1";
 	};
-	class GulagJacket_Grey: Clothing
+	class GulagJacket_Grey: GulagJacket_ColorBase
 	{
 		scope=2;
 		itemsCargoSize[]={3,3};
 		displayName = "$STR_CfgVehicles_GulagJacket_Grey0";
 		descriptionShort="$STR_CfgVehicles_GulagJacket_Grey1";
 	};
-	class NavyUniformJacket: Clothing
+	class NavyUniformJacket: WoolCoat_ColorBase
 	{
 		scope=2;
 		itemsCargoSize[]={3,3};
@@ -762,26 +765,19 @@ class CfgVehicles
 		displayName = "$STR_CfgVehicles_MilitarySweater_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_MilitarySweater_ColorBase1";
 	};
-	class Tshirt_10thAnniversary: Clothing
-	{
-		scope=2;
-		itemsCargoSize[]={2,1};
-		displayName = "$STR_CfgVehicles_Tshirt_10thAnniversary0";
-		descriptionShort="$STR_CfgVehicles_Tshirt_10thAnniversary1";
-	};
 	class LeatherPants_ColorBase: Clothing //Start of additional Pants.
 	{
 		itemsCargoSize[]={3,2};
 		displayName = "$STR_CfgVehicles_LeatherPants_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_LeatherPants_ColorBase1";
 	};
-	class OMKPants_Navy: Clothing
+	class OMKPants_Navy: OMKPants_ColorBase
 	{
 		itemsCargoSize[]={4,3};
-		displayName="$STR_CfgVehicles_OMKPants_ColorBase0";
-		descriptionShort="$STR_cfgvehicles_OMKPants_Colorbase1";
+		//displayName="$STR_CfgVehicles_OMKPants_ColorBase0";
+		//descriptionShort="$STR_CfgVehicles_OMKPants_ColorBase1";
 	};
-	class NavyUniformPants: Clothing
+	class NavyUniformPants: PolicePants
 	{
 		scope=2;
 		itemsCargoSize[]={3,2};
