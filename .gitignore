@@ -1,0 +1,15 @@
+# Build outputs — regenerable from src/
+build/
+*.pbo
+*.bisign
+*.bak
+
+# Secrets — NEVER commit
+*.biprivkey
+*.biprivatekey
+
+# Editor / OS junk
+*.sw?
+.vscode/
+.idea/
+.DS_Store
