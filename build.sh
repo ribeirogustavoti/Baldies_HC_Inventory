@@ -7,7 +7,7 @@
 set -euo pipefail
 
 MOD_NAME="Baldies_HC_Inventory"
-PRIVKEY="${BHC_PRIVKEY:-$HOME/Games/dayz_mods/baldies_hc.biprivatekey}"
+PRIVKEY="${BHC_PRIVKEY:-$HOME/Games/dayz_mods/secrets/baldies_hc.biprivatekey}"
 
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
 BUILD_DIR="$REPO_ROOT/build"
