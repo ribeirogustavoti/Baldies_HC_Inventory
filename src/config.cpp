@@ -185,14 +185,14 @@ class CfgVehicles
 	class LegsCover_Improvised: Clothing
 	{
 		scope=2;
-		itemsCargoSize[]={2,2};
+		itemsCargoSize[]={0,0};
 		displayName = "$STR_LegsCover_Improvised0";
 		descriptionShort="$STR_LegsCover_Improvised1";
 	};
 	class Chainmail_Leggings: Clothing
 	{
 		scope=2;
-		itemsCargoSize[]={4,2};
+		itemsCargoSize[]={0,0};
 		displayName = "$STR_CfgVehicles_Chainmail_Leggings0";
 		descriptionShort="$STR_CfgVehicles_Chainmail_Leggings1";
 	};
@@ -222,19 +222,19 @@ class CfgVehicles
 	};
 	class TacticalShirt_ColorBase: Clothing
 	{
-		itemsCargoSize[]={4,3};
+		itemsCargoSize[]={5,3};
 		displayName = "$STR_CfgVehicles_TacticalShirt_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_TacticalShirt_ColorBase1";
 	};
 	class DownJacket_ColorBase: Clothing
 	{
-		itemsCargoSize[]={3,3};
+		itemsCargoSize[]={5,3};
 		displayName="$STR_cfgvehicles_bubblegoose_colorbase0";
 		descriptionShort="$STR_cfgvehicles_bubblegoose_colorbase1";
 	};
 	class HikingJacket_ColorBase: Clothing
 	{
-		itemsCargoSize[]={3,3};
+		itemsCargoSize[]={5,3};
 		displayName = "$STR_CfgVehicles_HikingJacket_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_HikingJacket_ColorBase1";
 	};
@@ -247,7 +247,7 @@ class CfgVehicles
 	class TorsoCover_Improvised: Clothing
 	{
 		scope=2;
-		itemsCargoSize[]={2,2};
+		itemsCargoSize[]={0,0};
 		displayName = "$STR_TorsoCover_Improvised0";
 		descriptionShort="$STR_TorsoCover_Improvised1";
 	};
@@ -290,7 +290,7 @@ class CfgVehicles
 	class BushlatPoliceJacket_ColorBase: Clothing
 	{
 		scope=2;
-		itemsCargoSize[]={4,3};
+		itemsCargoSize[]={5,3};
 		displayName="$STR_CfgVehicles_BushlatPoliceJacket_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_BushlatPoliceJacket_ColorBase1";
 	};
@@ -316,7 +316,7 @@ class CfgVehicles
 	};
 	class FirefighterJacket_ColorBase: Clothing
 	{
-		itemsCargoSize[]={4,3};
+		itemsCargoSize[]={5,3};
 		displayName = "$STR_CfgVehicles_FirefighterJacket_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_FirefighterJacket_ColorBase1";
 	};
@@ -335,19 +335,19 @@ class CfgVehicles
 	};
 	class QuiltedJacket_ColorBase: Clothing
 	{
-		itemsCargoSize[]={3,3};
+		itemsCargoSize[]={5,3};
 		displayName = "$STR_CfgVehicles_QuiltedJacket_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_QuiltedJacket_ColorBase1";
 	};
 	class BomberJacket_ColorBase: Clothing
 	{
-		itemsCargoSize[]={3,3};
+		itemsCargoSize[]={5,3};
 		displayName = "$STR_CfgVehicles_BomberJacket_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_BomberJacket_ColorBase1";
 	};
 	class HuntingJacket_ColorBase: Clothing
 	{
-		itemsCargoSize[]={4,3};
+		itemsCargoSize[]={5,3};
 		displayName = "$STR_CfgVehicles_HuntingJacket_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_HuntingJacket_ColorBase1";
 	};
@@ -398,7 +398,7 @@ class CfgVehicles
 	class DenimJacket: Clothing
 	{
 		scope=2;
-		itemsCargoSize[]={3,2};
+		itemsCargoSize[]={3,4};
 		displayName = "$STR_CfgVehicles_DenimJacket0";
 		descriptionShort="$STR_CfgVehicles_DenimJacket1";
 	};
@@ -418,7 +418,7 @@ class CfgVehicles
 	};
 	class JumpsuitJacket_ColorBase: Clothing
 	{
-		itemsCargoSize[]={3,3};
+		itemsCargoSize[]={5,3};
 		displayName = "$STR_CfgVehicles_JumpsuitJacket_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_JumpsuitJacket_ColorBase1";
 	};
@@ -443,7 +443,7 @@ class CfgVehicles
 	};
 	class LeatherJacket_ColorBase: Clothing
 	{
-		itemsCargoSize[]={3,3};
+		itemsCargoSize[]={5,3};
 		displayName="$STR_CfgVehicles_LeatherJacket_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_LeatherJacket_ColorBase1";
 	};
@@ -530,31 +530,31 @@ class CfgVehicles
 	class SmershBag: Clothing
 	{
 		scope=2;
-		itemsCargoSize[]={3,2};
+		itemsCargoSize[]={4,3};
 		displayName = "$STR_cfgVehicles_SmershBag0";
 		descriptionShort="$STR_cfgVehicles_SmershBag1";
 	};
 	class ChildBag_ColorBase: Clothing //School_Backpack
 	{
-		itemsCargoSize[]={5,3};
+		itemsCargoSize[]={5,4};
 		displayName = "$STR_cfgVehicles_ChildBag_ColorBase0";
 		descriptionShort="$STR_cfgVehicles_ChildBag_ColorBase1";
 	};
 	class AssaultBag_ColorBase: Clothing
 	{
-		itemsCargoSize[]={5,5};
+		itemsCargoSize[]={6,5};
 		displayName = "$STR_cfgVehicles_AssaultBag_ColorBase0";
 		descriptionShort="$STR_cfgVehicles_AssaultBag_ColorBase1";
 	};
 	class CoyoteBag_ColorBase: Clothing
 	{
-		itemsCargoSize[]={6,6};
+		itemsCargoSize[]={7,7};
 		displayName = "$STR_cfgVehicles_CoyoteBag_ColorBase0";
 		descriptionShort="$STR_cfgVehicles_CoyoteBag_ColorBase1";
 	};
 	class AliceBag_ColorBase: Clothing
 	{
-		itemsCargoSize[]={6,6};
+		itemsCargoSize[]={7,7};
 		displayName = "$STR_cfgVehicles_AliceBag_ColorBase0";
 		descriptionShort="$STR_cfgVehicles_AliceBag_ColorBase1";
 	};
@@ -641,22 +641,22 @@ class CfgVehicles
 	class Attack2Bag_Black: Attack2Bag_ColorBase //Start of Attack2Bag family (no ColorBase in base game).
 	{
 		scope=2;
-		itemsCargoSize[]={6,7};
+		itemsCargoSize[]={8,7};
 	};
 	class Attack2Bag_Green: Attack2Bag_ColorBase
 	{
 		scope=2;
-		itemsCargoSize[]={6,7};
+		itemsCargoSize[]={8,7};
 	};
 	class Attack2Bag_Ttsko: Attack2Bag_ColorBase
 	{
 		scope=2;
-		itemsCargoSize[]={6,7};
+		itemsCargoSize[]={8,7};
 	};
 	class Attack2Bag_Yeger: Attack2Bag_ColorBase
 	{
 		scope=2;
-		itemsCargoSize[]={6,7};
+		itemsCargoSize[]={8,7};
 	};
 	class DrysackBag_ColorBase: Clothing
 	{
@@ -680,36 +680,10 @@ class CfgVehicles
 		scope=2;
 		itemsCargoSize[]={4,4};
 	};
-	class PlateCarrierVest: Clothing //Start of PlateCarrier family.
-	{
-		scope=2;
-		itemsCargoSize[]={4,3};
-	};
-	class PlateCarrierVest_Black: PlateCarrierVest
-	{
-		itemsCargoSize[]={4,3};
-	};
-	class PlateCarrierVest_Camo: PlateCarrierVest
-	{
-		itemsCargoSize[]={4,3};
-	};
-	class PlateCarrierVest_Green: PlateCarrierVest
-	{
-		itemsCargoSize[]={4,3};
-	};
-	class PlateCarrierVest_Winter: PlateCarrierVest
-	{
-		itemsCargoSize[]={4,3};
-	};
-	class PoliceVest: Clothing
-	{
-		scope=2;
-		itemsCargoSize[]={3,3};
-	};
 	class ReflexVest: Clothing
 	{
 		scope=2;
-		itemsCargoSize[]={2,2};
+		itemsCargoSize[]={0,0};
 	};
 	class HuntingVest_Winter: HuntingVest
 	{
@@ -723,14 +697,14 @@ class CfgVehicles
 	};
 	class WinterMilitaryCoat_ColorBase: Clothing
 	{
-		itemsCargoSize[]={4,3};
+		itemsCargoSize[]={5,5};
 		displayName = "$STR_CfgVehicles_WinterMilitaryCoat_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_WinterMilitaryCoat_ColorBase1";
 	};
 	class GulagJacket_Grey: GulagJacket_ColorBase
 	{
 		scope=2;
-		itemsCargoSize[]={3,3};
+		itemsCargoSize[]={2,2};
 	};
 	class NavyUniformJacket: WoolCoat_ColorBase
 	{
@@ -776,5 +750,9 @@ class CfgVehicles
 		itemsCargoSize[]={0,0};
 		displayName = "$STR_CfgVehicles_WitchHoodCoif_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_WitchHoodCoif_ColorBase1";
+	};
+	class PlateCarrierPouches: Container_Base //Start of plate pouches.
+	{
+		itemsCargoSize[]={3,3};
 	};
 };
