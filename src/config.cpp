@@ -751,7 +751,7 @@ class CfgVehicles
 		displayName = "$STR_CfgVehicles_WitchHoodCoif_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_WitchHoodCoif_ColorBase1";
 	};
-	class PlateCarrierPouches: Container_Base //Start of plate pouches.
+	class PlateCarrierPouches: Clothing //Start of plate pouches.
 	{
 		itemsCargoSize[]={3,3};
 	};
