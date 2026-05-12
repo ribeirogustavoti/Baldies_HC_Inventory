@@ -165,14 +165,14 @@ class CfgVehicles
 	class ShortJeans_ColorBase: Clothing
 	{
 		scope=0;
-		itemsCargoSize[]={3,2};
+		itemsCargoSize[]={2,2};
 		displayName = "$STR_CfgVehicles_ShortJeans_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_ShortJeans_ColorBase1";
 	};
 	class Skirt_ColorBase: Clothing
 	{
 		scope=0;
-		itemsCargoSize[]={3,2};
+		itemsCargoSize[]={2,2};
 		displayName = "$STR_CfgVehicles_Skirt_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_Skirt_ColorBase1";
 	};
@@ -204,7 +204,7 @@ class CfgVehicles
 	};
 	class Shirt_ColorBase: Clothing
 	{
-		itemsCargoSize[]={3,2};
+		itemsCargoSize[]={1,1};
 		displayName = "$STR_CfgVehicles_Shirt_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_Shirt_ColorBase1";
 	};
