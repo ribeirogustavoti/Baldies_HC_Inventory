@@ -560,7 +560,7 @@ class CfgVehicles
 	};
 	class SlingBag_ColorBase: Clothing
 	{
-		itemsCargoSize[]={5,3};
+		itemsCargoSize[]={3,5};
 		displayName = "$STR_cfgvehicles_Slingbag0";
 		descriptionShort="$STR_cfgvehicles_Slingbag1";
 	};
