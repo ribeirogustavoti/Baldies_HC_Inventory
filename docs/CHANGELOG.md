@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## v1.0.1 - 2026-08-04
+
 - Initial repo import. Forked scope from upstream Realistic_Inventory mod;
   added cargo overrides for 29 additional classes covering Attack2Bag,
   PlateCarrierVest, DrysackBag, WaterproofBag, WinterMilitaryCoat, PilotJacket,
