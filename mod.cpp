@@ -6,5 +6,5 @@ logoOver = "";
 tooltip = "Hardcore realistic cargo sizes";
 overview = "Overrides itemsCargoSize[] on clothing, bags, and vests across Chernarus, Livonia, and Sakhal to enforce realistic storage capacities.";
 author = "grbonis";
-version = "1.0.1";
+version = "1.0.2";
 action = "";

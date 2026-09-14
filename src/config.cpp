@@ -12,7 +12,8 @@ class CfgPatches
 			"DZ_Characters_Belts",
 			"DZ_Characters_Backpacks",
 			"DZ_Characters_Vests",
-			"DZ_Characters_Shoes"
+			"DZ_Characters_Shoes",
+			"DZ_Gear_Containers"
 		};
     };
 };
@@ -37,6 +38,7 @@ class CfgMods
 class CfgVehicles
 {
 	class Clothing;
+	class Container_Base;
 	class Attack2Bag_ColorBase;
 	class GulagJacket_ColorBase;
 	class OMKPants_ColorBase;
@@ -751,8 +753,14 @@ class CfgVehicles
 		displayName = "$STR_CfgVehicles_WitchHoodCoif_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_WitchHoodCoif_ColorBase1";
 	};
-	class PlateCarrierPouches: Clothing //Start of plate pouches.
+	// Vanilla base is Container_Base (gear_containers.pbo), NOT Clothing --
+	// declaring the mod override with `: Clothing` was dropping the vanilla
+	// class's `allowOwnedCargoManipulation = 1` flag, which prevented adding
+	// items into the pouches while they were attached to the plate carrier.
+	// Fix: keep the same base as vanilla and set the flag explicitly.
+	class PlateCarrierPouches: Container_Base //Start of plate pouches.
 	{
 		itemsCargoSize[]={3,3};
+		allowOwnedCargoManipulation = 1;
 	};
 };
