@@ -30,7 +30,7 @@ class CfgMods
 		credits = "";
 		author = "grbonis";
 		authorID = "0";
-		version = "1.0";
+		version = "1.0.2";
 		extra = 0;
 		type = "mod";
 	};
@@ -666,7 +666,7 @@ class CfgVehicles
 		displayName = "$STR_CfgVehicles_DrysackBag_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_DrysackBag_ColorBase1";
 	};
-	class WaterproofBag_ColorBase: Clothing
+	class WaterproofBag_ColorBase: Container_Base
 	{
 		itemsCargoSize[]={4,4};
 		displayName = "$STR_CfgVehicles_WaterproofBag_ColorBase0";
@@ -753,14 +753,8 @@ class CfgVehicles
 		displayName = "$STR_CfgVehicles_WitchHoodCoif_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_WitchHoodCoif_ColorBase1";
 	};
-	// Vanilla base is Container_Base (gear_containers.pbo), NOT Clothing --
-	// declaring the mod override with `: Clothing` was dropping the vanilla
-	// class's `allowOwnedCargoManipulation = 1` flag, which prevented adding
-	// items into the pouches while they were attached to the plate carrier.
-	// Fix: keep the same base as vanilla and set the flag explicitly.
 	class PlateCarrierPouches: Container_Base //Start of plate pouches.
 	{
 		itemsCargoSize[]={3,3};
-		allowOwnedCargoManipulation = 1;
 	};
 };
